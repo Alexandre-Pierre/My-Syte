@@ -1,0 +1,167 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3{
+  font-weight: bold;
+}
+
+#title{
+  color: #eeebdd;
+  background-color: #000000;
+}
+
+.title-heading{
+  font-size: 3.5rem;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 0.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Hurricane', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.navbar-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Thin', sans-serif;
+}
+
+
+/* Skills Section */
+#skills{
+  background-color: #eeebdd;
+  padding: 7% 15%;
+}
+
+.skill-icon{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #630000;
+}
+
+/* Skill Show */
+#skill-show{
+  background-color: #000000;
+  text-align: center;
+  color: #eeebdd;
+}
+
+.skill-show-image{
+  border-radius: 25% 0;
+  width: 25%;
+  margin: 3%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Hobbies */
+#hobbies{
+  padding: 3% 8%;
+  text-align: center;
+  background-color: #eeebdd
+}
+
+.hobbies-heading{
+  font-size: 3rem;
+}
+
+.card-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+
+.hobbies-intro{
+  margin-bottom: 3rem;
+}
+
+.card-header{
+  background-color: #630000;
+}
+
+.card-title{
+  color: #eeebdd;
+}
+
+#contact{
+  text-align: center;
+  color: #eeebdd;
+  background-color: #000000;
+}
+
+#footer{
+  background-color: #eeebdb;
+  text-align: center;
+}
+
+.social-icon{
+  color: #000000;
+  padding: 3%;
+}
+.social-icon:hover{
+  color: #630000;
+}
+
+/* YOGA */
+.yoga-page, .hiking-page, .woodwork-page, .teaching-yoga-page, .digital-art, .web-dev{
+  background-color: #eeebdb;
+  text-align: center;
+}
+
+.yoga-page-heading, .hiking-page-heading, .woodwork-page-heading, .teaching-yoga-heading, .digital-art-heading, .web-dev-heading{
+  padding: 8%;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.yoga-image, .hiking-image, .woodwork-image, .digital-art-image{
+  height: 300px;
+  width: 300px;
+  margin: 2%;
+  border-style: solid;
+  border-color: white;
+}
+
+.teaching-yoga-image1{
+  height: 300px;
+  width: 400px;
+  margin: 2%;
+  border-style: solid;
+  border-color: white;
+}
+
+.teaching-yoga-image2{
+  height: 400px;
+  width: 300px;
+  margin: 2%;
+  border-style: solid;
+  border-color: white;
+}
+
+.web-dev ul{
+  text-align: left;
+}

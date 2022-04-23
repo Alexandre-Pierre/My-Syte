@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Alexandre Beauchard</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/0adec87fdf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Alexandre Beauchard</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a class="nav-link" href="teaching-yoga.html">Yoga</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="digital-art.html">Digital Art</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="web-dev.html">Web Development</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="title-heading">Welcome to my world!</h1>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/yoga.png" alt="Yoga Pose">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+
+  <section id="skills">
+
+    <div class="row">
+
+      <div class="skill-icon col-lg-4">
+        <i class="icon fa-solid fa-om fa-4x"></i>
+        <h3>Yoga Teacher.</h3>
+        <p>Experienced 500hrs Yoga Teacher. I already gave more than 2000 hours of classes.</p>
+      </div>
+
+      <div class="skill-icon col-lg-4">
+        <i class="icon fa-solid fa-code fa-4x"></i>
+        <h3>Web developer in training.</h3>
+        <p>Learning to make websites. This is my project.</p>
+      </div>
+
+      <div class="skill-icon col-lg-4">
+        <i class="icon fa-solid fa-palette fa-4x"></i>
+        <h3>Digital art.</h3>
+        <p>I love to follow Procreate tutorials on YouTube.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skill-show">
+
+    <div id="skill-show-carousel" class="carousel slide" data-bs-ride="False">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2>I give group classes as well as 1 on 1 classes.</h2>
+          <img class="skill-show-image" src="images/yoga-class.png" alt="Yoga Class">
+        </div>
+        <div class="carousel-item">
+          <h2 class="skill-show-text">Love to spend some of my free time being creative.</h2>
+          <img class="skill-show-image" src="images/digital-art.png" alt="Digital Art">
+        </div>
+        <div class="carousel-item">
+          <h2 class="skill-show-text">The world of coding is so vast. You can do just about anything with a computer.</h2>
+          <img class="skill-show-image" src="images/code-example.png" alt="Code Snippet">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#skill-show-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#skill-show-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </div>
+
+  </section>
+
+  <!-- Hobbies -->
+  <section id="hobbies">
+    <div class="hobbies-intro">
+      <h2 class="hobbies-heading">Hobbies</h2>
+      <p>Here you can find more examples of the things I like to do.</p>
+    </div>
+    <div class="row">
+      <div class="hobbies-show col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Hiking</h3>
+          </div>
+          <div class="card-body">
+            <img src="images/riviere-enverse.png" class="card-image" alt="Mountain Image">
+            <a href="hiking.html"><button class="btn btn-lg btn-outline-dark" type="button">SEE MORE</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="hobbies-show col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Woodwork</h3>
+          </div>
+          <div class="card-body">
+            <img src="images/spoons.png" class="card-image" alt="Hand-Carved Wooden Spoons">
+            <a href="woodwork.html"><button class="btn btn-lg btn-outline-dark" type="button">SEE MORE</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="hobbies-show col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Yoga</h3>
+          </div>
+          <div class="card-body">
+            <img src="images/grasshoper-pose.png" class="card-image" alt="Grasshoper Yoga Pose">
+            <a href="yoga.html"><button class="btn btn-lg btn-outline-dark" type="button">SEE MORE</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container-fluid">
+      <h2>Get In Touch!</h2>
+      <p>If you have any questions or just would like to talk about stuff. I am always happy to chat with like minded people.</p>
+      <a href="contact.html"><button class="btn btn-lg btn-outline-light" type="button">CONTACT FORM</button></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container-fluid">
+      <a href="https://nl.linkedin.com/in/alexandre-beauchard-5b7024234?trk=public_profile_samename-profile"><i class="social-icon fa-brands fa-linkedin fa-2x"></i></a>
+      <a href="https://www.facebook.com/AlexandreBeauchard"><i class="social-icon footer-logo fa-brands fa-facebook fa-2x"></i></a>
+      <a href="https://www.instagram.com/alexandre_yoga/"><i class="social-icon footer-logo fa-brands fa-instagram fa-2x"></i></a>
+      <a href="mailto:info@bodymindyoga.nl"><i class="social-icon footer-logo fa-solid fa-envelope fa-2x"></i></a>
+
+      <p>© Alexandre Beauchard 2022</p>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
